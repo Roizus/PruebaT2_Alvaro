@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Yep</string>
+    <string name="titulo">YEP!</string>
+    <string name="subtitulo">DO I KNOW YOU?</string>
+    <string name="username_hint">username</string>
+    <string name="password_hint">password</string>
+    <string name="login_button_label">LOGIN</string>
+    <string name="sign_up_text">have an account? SIGN UP here!</string>
+</resources>

@@ -1,0 +1,105 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="YepTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="actionBarItemBackground">@drawable/selectable_background_yep</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Yep</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Yep</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Yep</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Yep</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Yep</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_yep</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_yep</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Yep</item>
+
+        <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.Yep.Widget</item>
+
+
+
+    </style>
+
+    <style name="ActionBar.Solid.Yep" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_yep</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_yep</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_yep</item>
+        <item name="progressBarStyle">@style/ProgressBar.Yep</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Yep" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_yep</item>
+        <item name="progressBarStyle">@style/ProgressBar.Yep</item>
+    </style>
+
+    <style name="PopupMenu.Yep" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_yep</item>
+    </style>
+
+    <style name="DropDownListView.Yep" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_yep</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Yep" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_yep</item>
+    </style>
+
+    <style name="DropDownNav.Yep" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_yep</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_yep</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_yep</item>
+    </style>
+
+    <style name="ProgressBar.Yep" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_yep</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Yep" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_yep</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Yep.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Yep</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Yep</item>
+    </style>
+
+
+    <style name="AuthFieldContainer">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/login_vertical_margin</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/login_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/login_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/login_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/login_vertical_padding</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/subtitle</item>
+    </style>
+
+    <style name="AuthEditText" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:ems">10</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AuthButton" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/button_custom</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
